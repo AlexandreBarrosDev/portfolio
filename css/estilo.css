@@ -1,0 +1,60 @@
+/*
+*
+*@author: Alexandre Barros
+*
+*/
+
+/*____Fontes____*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/*____Reset____*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*____Variaveis____*/
+
+:root {
+    --fd-cor: rgba(255, 255, 255, 1);
+    --fd-cor2: rgba(200, 200, 200, 0.3);
+    --tx-cor: #111133;
+    --tx-cor2: #555577;
+    --prim-cor: linear-gradient(to right, #780206, #061161);
+}
+
+/*____Menu____*/
+
+
+
+/*____Conteúdo____*/
+
+html {
+    font-size: 1em;
+    overflow-x: hidden;
+}
+body {
+    background: var(--fd-cor);
+    color: var(--tx-cor);
+}
+.cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    background: var(--fd-cor2);
+    backdrop-filter: blur;
+    display: flex;
+    justify-content: space-between;
+}
