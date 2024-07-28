@@ -27,57 +27,88 @@
         <i class='bx bx-menu' id="menu"></i>
     </header>
     <section id="home">
-        <h1><span class="apresentacao gradiente">{Portfólio}</span><br><span class="nome">Alexandre Barros Developer</span></h1>
+        <div class="container">
+            <h1><span class="apresentacao gradiente">{Portfólio}</span><br><span class="nome">Alexandre Barros Developer</span></h1>
+        </div>
     </section>
     <section id="sobre">
-        <h2><span class="gradiente">Sobre</span></h2>
-        <hr>
-        <div class="perfil">
-            <img class="foto" src="imagens/fotoperfil.jpg" alt="Fotografia de Alexandre Barros">
-            <div class="perfil-texto">
-                <p>Sou Alexandre Barros, um desenvolvedor Web admirado pela inovação, residente em Santa Catarina/Brasil. Com uma formação sólida em Análise e Desenvolvimento de Sistemas, minha expertise está focada na criação de sistemas Web que priorizam responsividade e desempenho excepcionais.</p>
-                <p>Minha experiência no desenvolvimento de soluções Web me permite oferecer produtos que não apenas atendem às necessidades dos usuários, mas também proporcionam uma experiência de uso eficiente e intuitiva. Utilizo as melhores práticas de programação e estou sempre atualizado com as mais recentes tecnologias para garantir que meus projetos estejam na vanguarda do mercado.</p>
-                <p>Além do meu trabalho, sou entusiasta de videogames e adoro explorar novos lugares. Essas paixões não só me ajudam a relaxar, mas também a encontrar inspiração e novas perspectivas que aplico no meu trabalho diário.</p>
+        <div class="container">
+            <h2><span class="gradiente">Sobre</span></h2>
+            <div class="perfil">
+                <img class="foto" src="imagens/fotoperfil.jpg" alt="Fotografia de Alexandre Barros">
+                <div class="perfil-texto">
+                    <p>Sou Alexandre Barros, um desenvolvedor Web admirado pela inovação, residente em Santa Catarina/Brasil. Com uma formação sólida em Análise e Desenvolvimento de Sistemas, minha expertise está focada na criação de sistemas Web que priorizam responsividade e desempenho excepcionais.</p>
+                    <p>Minha experiência no desenvolvimento de soluções Web me permite oferecer produtos que não apenas atendem às necessidades dos usuários, mas também proporcionam uma experiência de uso eficiente e intuitiva. Utilizo as melhores práticas de programação e estou sempre atualizado com as mais recentes tecnologias para garantir que meus projetos estejam na vanguarda do mercado.</p>
+                    <p>Além do meu trabalho, sou entusiasta de videogames e adoro explorar novos lugares. Essas paixões não só me ajudam a relaxar, mas também a encontrar inspiração e novas perspectivas que aplico no meu trabalho diário.</p>
+                </div>
             </div>
-        </div>
-        <div class="habilidades">
-            <h3><span class="gradiente">Habilidades</span></h3>
-            <ul class="habilidade-icone">
-                <li class="gradiente"><i class='bx bxl-html5'></i><br>HTML</li>
-                <li class="gradiente"><i class='bx bxl-css3' ></i><br>CSS</li>
-                <li class="gradiente"><i class='bx bxl-javascript' ></i><br>JAVASCRIPT</li>
-                <li class="gradiente"><i class='bx bxl-php' ></i><br>PHP</li>
-                <li class="gradiente"><i class='bx bxs-data' ></i><br>SQL</li>
-            </ul>
+            <div class="habilidades">
+                <h3><span class="gradiente">Habilidades</span></h3>
+                <ul class="habilidade-icone">
+                    <li><i class='bx bxl-html5'></i><br>HTML</li>
+                    <li><i class='bx bxl-css3' ></i><br>CSS</li>
+                    <li><i class='bx bxl-javascript' ></i><br>JAVASCRIPT</li>
+                    <li><i class='bx bxl-php' ></i><br>PHP</li>
+                    <li><i class='bx bxs-data' ></i><br>SQL</li>
+                </ul>
+            </div>
         </div>
     </section>
     <section id="projetos">
-        <h2><span class="gradiente">Projetos</span></h2>
-        <div class="projetos-lista">
-            <div class="projeto-item 1">
+        <div class="container">
+            <h2><span class="gradiente">Projetos</span></h2>
+            <div class="projetos-lista">
+                <div class="projeto-item 1">
                 
-            </div>
-            <div class="projeto-item 2">
+                </div>
+                <div class="projeto-item 2">
                 
-            </div>
-            <div class="projeto-item 3">
+                </div>
+                <div class="projeto-item 3">
                 
-            </div>
-            <div class="projeto-item 4">
+                </div>
+                <div class="projeto-item 4">
                 
+                </div>
             </div>
         </div>
     </section>
     <section id="contato">
-        <h2><span class="gradiente">Contato</span></h2>
-        <div class="rede-sociais">
-            <ul class="links">
-                <li><i class='bx bxs-phone gradiente'></i>+55(47)99635-8544</li>
-                <li><i class='bx bxl-linkedin-square gradiente'></i><a href="https://www.linkedin.com/in/alexandrebarrosdev" target="_blank">Linkedin</a></li>
-                <li><i class='bx bxl-github gradiente'></i><a href="https://github.com/AlexandreBarrosDev" target="_blank">github</a></li>
-            </ul>
+        <div class="container">
+            <h2><span class="gradiente">Contato</span></h2>
+            <div class="contato-caixa">
+                <div class="rede-sociais">
+                    <ul class="links">
+                        <li><a href="#contato"><i class='bx bxs-phone'></i>+55(47)99635-8544</a></li>
+                        <li><a href="https://www.linkedin.com/in/alexandrebarrosdev" target="_blank"><i class='bx bxl-linkedin-square'></i>Linkedin</a></li>
+                        <li><a href="https://github.com/AlexandreBarrosDev" target="_blank"><i class='bx bxl-github'></i>github</a></li>
+                    </ul>
+                </div>
+                <div class="contato-formulario">
+                    <form class="formulario" action="action_page.php">
+          
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome..">
+          
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="email@email.com">
+                
+                        <label for="assunto">Assunto</label>
+                        <input type="text" id="assunto" name="assunto" placeholder="Qual o assunto..">
+
+                        <label for="texto">Texto</label>
+                        <textarea id="texto" name="texto" placeholder="Escreva aqui.." style="height:200px"></textarea>
+          
+                        <button><input type="submit" value="Submit"></button>
+          
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
-    
+    <footer>
+            &copy;<span id="ano"></span> Alexandre Barros
+    </footer>
+<script src="js/index.js"></script>   
 </body>
 </html>
