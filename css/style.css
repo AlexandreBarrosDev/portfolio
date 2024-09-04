@@ -27,13 +27,13 @@
 /*____Variaveis____*/
 
 :root {
-    --fd-cor: #ffffff;
+    --fd-cor: #111111;
     --fd-cor2: #ffffff00;
-    --fd-cor3: #eeeeff;
-    --tx-cor: #111133;
-    --tx-cor2: #555588;
+    --fd-cor3: #222222;
+    --tx-cor: #ffffff;
+    --tx-cor2: #dddddd;
     --tx-cor3: #ffffff;
-    --prim-cor: linear-gradient(45deg, #5614B0, #DBD65C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    --prim-cor: linear-gradient(45deg, #0066ff, #7744ff, #d42aff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
 
@@ -50,7 +50,7 @@ body {
 }
 section {
     min-height: 100vh;
-    border-bottom: 2px solid var(--fd-cor3);
+    border-bottom: 2px solid #000000;
 }
 .container {
     width: 90%;
@@ -142,6 +142,8 @@ span.gradiente {
     width: 300px;
     height: 320px;
     border-radius: 1em;
+    background: linear-gradient(#222222, #222222) padding-box, linear-gradient(45deg, #0066ff, #7744ff, #d42aff) border-box;
+    border: 2px solid transparent;
 }
 .perfil-texto {
     display: flex;
@@ -191,7 +193,7 @@ h2, h3 {
     width: 350px;
     height: 300px;
     border-radius: 1em;
-    background: linear-gradient(#ffffff, #ffffff) padding-box, linear-gradient(45deg, #5614b0, #dbd65c) border-box;
+    background: linear-gradient(#222222, #222222) padding-box, linear-gradient(45deg, #0066ff, #7744ff, #d42aff) border-box;
     border: 2px solid transparent;
 }
 #contato {
@@ -242,21 +244,30 @@ input[type=text], input[type=email], select, textarea {
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     resize: vertical;
-    background: linear-gradient(#ffffff, #ffffff) padding-box, linear-gradient(45deg, #5614b0, #dbd65c) border-box;
+    background: linear-gradient(#222222, #222222) padding-box, linear-gradient(45deg, #0066ff, #7744ff, #d42aff) border-box;
     border: 2px solid transparent;
     opacity: 0.8;
 }
-input[type=submit] {
-    color: white;
+
+button {
+    color: var(--tx-cor);
     padding: 1rem 2rem;
-    border: none;
+    border: 2px solid transparent;
     border-radius: 1rem;
     cursor: pointer;
-    background: var(--tx-cor2);
+    background: linear-gradient(#222222, #222222) padding-box, linear-gradient(45deg, #0066ff, #7744ff, #d42aff) border-box;
     transition: 1s ease-in-out;
+    opacity: 0.7;
 }
-input[type=submit]:hover {
-    background-color: var(--tx-cor);
+
+button:hover {
+    opacity: 1;
+    background: linear-gradient(#333333, #333333) padding-box, linear-gradient(45deg, #0066ff, #7744ff, #d42aff) border-box;
+}
+
+input[type=submit] {
+    background-color: transparent;
+    color: var(--tx-cor);
 }
 
 /*____Rodapé____*/
