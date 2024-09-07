@@ -2,14 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="100"
-   height="36"
-   viewBox="0 0 26.458334 9.5249995"
+   width="150"
+   height="55"
+   viewBox="0 0 39.687501 14.552082"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="logoalx.svg"
-   inkscape:export-filename="logoalxWallpaper2.png"
+   inkscape:export-filename="logoalx.png"
    inkscape:export-xdpi="95.970001"
    inkscape:export-ydpi="95.970001"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -30,9 +30,9 @@
      showgrid="false"
      inkscape:lockguides="false"
      showborder="false"
-     inkscape:zoom="12.93"
-     inkscape:cx="50.000002"
-     inkscape:cy="18.020109"
+     inkscape:zoom="6.6899997"
+     inkscape:cx="76.008972"
+     inkscape:cy="32.13752"
      inkscape:window-width="1920"
      inkscape:window-height="948"
      inkscape:window-x="0"
@@ -271,7 +271,7 @@
        id="g1897"
        transform="translate(-0.01846493,-1.7189996)">
       <rect
-         style="mix-blend-mode:normal;fill:#ffffff;fill-opacity:0.00150325;stroke-width:0.00465248;stroke-linecap:square;opacity:0"
+         style="opacity:0;mix-blend-mode:normal;fill:#ffffff;fill-opacity:0.00150326;stroke-width:0.00465248;stroke-linecap:square"
          id="rect2510"
          width="26.458334"
          height="9.5249996"
@@ -279,7 +279,7 @@
          y="1.7253088" />
       <g
          id="g987"
-         transform="matrix(0.94174728,0,0,0.94174728,-11.671733,-4.9276454)">
+         transform="matrix(1.4193088,0,0,1.4193088,-17.690323,-8.163195)">
         <g
            aria-label="AlX"
            transform="matrix(0.09662811,0,0,0.09839088,-3.2283999,-35.558032)"
