@@ -42,6 +42,7 @@
 html {
     font-size: 1rem;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 body {
     width: 100vw;
@@ -187,11 +188,41 @@ h2, h3 {
 }
 .projeto-item {
     width: 350px;
-    height: 300px;
+    height: 350px;
     border-radius: 1em;
     background: linear-gradient(#222222, #222222) padding-box, linear-gradient(45deg, #0066ff, #7744ff, #d42aff) border-box;
     border: 2px solid transparent;
+    transition: transform 100ms ease-in-out;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
 }
+
+.projeto-item:hover {
+    transform: scale(1.05);
+  }
+
+  .projeto-imagem img {
+    max-width: 100%;
+    border-radius: 1em 1em 0 0;
+    padding: 2px;
+  }
+
+  .projeto-texto {
+    font-size: 0.9rem;
+    padding: 6px;
+    text-align: justify;
+  }
+
+  .projeto-links {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    gap: 1rem;
+    padding-left: 0.5rem;
+    margin-top: 1.5rem;
+  } 
+
 #contato {
     display: flex;
     flex-direction: column;
