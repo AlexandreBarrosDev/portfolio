@@ -27,7 +27,7 @@ export default function MobileNav() {
       <ul
         onClick={toggle}
         className={`transition-all ease-in-out duration-300
-        ${isOpen ? 'translate-x-0' : 'translate-x-28 invisible'} z-50 bg-neutral-300
+        ${isOpen ? 'translate-x-0' : 'translate-x-28 invisible'} z-50 bg-neutral-100
         p-4 fixed h-screen top-0 right-0 mt-12`}
       >
         {
