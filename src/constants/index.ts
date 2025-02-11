@@ -1,25 +1,25 @@
-import { MenuItemInterface, CardItemInterface, InputInterface, SocialLinkInterface, MenuSkillInterface } from '@/interfaces';
+import { MenuItemInterface, CardItemInterface, SocialLinkInterface, MenuSkillInterface } from '@/interfaces';
 
 export const menuItems: MenuItemInterface[] = [
   {
     url: '/',
-    label: 'Home',
+    label: 'Inicio',
   },
   {
     url: '/about',
-    label: 'About',
+    label: 'Sobre',
   },
   {
     url: '/skills',
-    label: 'Skills',
+    label: 'Habilidades',
   },
   {
     url: '/projects',
-    label: 'Projects',
+    label: 'Projetos',
   },
   {
     url: '/contact',
-    label: 'Contact',
+    label: 'Contato',
   },
 ];
 
@@ -64,7 +64,7 @@ export const skillItems: MenuSkillInterface[] = [
 
 export const projectItems: CardItemInterface[] = [
   {
-    imgURL: '/figma.svg',
+    imgURL: '/bx-task-x.svg',
     url: '#project1',
     label: 'Project 1',
     description: [
@@ -75,7 +75,7 @@ export const projectItems: CardItemInterface[] = [
     ],
   },
   {
-    imgURL: '/figma.svg',
+    imgURL: '/bx-task-x.svg',
     url: '#project2',
     label: 'Project 2',
     description: [
@@ -86,7 +86,7 @@ export const projectItems: CardItemInterface[] = [
     ],
   },
   {
-    imgURL: '/figma.svg',
+    imgURL: '/bx-task-x.svg',
     url: '#project3',
     label: 'Project 3',
     description: [
@@ -97,7 +97,7 @@ export const projectItems: CardItemInterface[] = [
     ],
   },
   {
-    imgURL: '/figma.svg',
+    imgURL: '/bx-task-x.svg',
     url: '#project4',
     label: 'Project 4',
     description: [
@@ -106,25 +106,6 @@ export const projectItems: CardItemInterface[] = [
       'Description 3',
       'Description 4',
     ],
-  },
-];
-
-export const input: InputInterface[] = [
-  {
-    htmlFor: 'name',
-    label: 'Nome',
-    type: 'name',
-    id: 'name',
-    name: 'name',
-    placeholder: 'Seu nome...',
-  },
-  {
-    htmlFor: 'email',
-    label: 'Email',
-    type: 'email',
-    id: 'email',
-    name: 'email',
-    placeholder: 'Seu email...',
   },
 ];
 
@@ -148,5 +129,10 @@ export const socialLink: SocialLinkInterface[] = [
     url: 'https://www.instagram.com/alexandrebarros.dev/',
     imgURL: 'bxl-instagram.svg',
     label: 'Instagram',
+  },
+  {
+    url: 'https://www.linkedin.com/in/alexandrebarrosdev/',
+    imgURL: 'bxl-linkedin-square.svg',
+    label: 'Linkedin',
   },
 ]

@@ -23,7 +23,7 @@ export function Card(props: CardItemInterface) {
               width={props.imgSize}
               height={props.imgSize}
             />
-            <h3 className={`${play.className} font-bold text-xl`}>{props.label}</h3>
+            <h3 className={`${play.className} font-bold`}>{props.label}</h3>
           </div>
           <Button
             type='button'

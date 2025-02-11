@@ -23,22 +23,11 @@ export interface ModalItemInterface {
   items: CardItemInterface;
   imgURLs?: string[];
 }
-
 export interface ButtonInterface {
   onClick?: () => void;
   type: 'button' | 'submit' | 'reset';
   label: string;
 }
-
-export interface InputInterface {
-  htmlFor: string;
-  label: string;
-  type: string;
-  id: string;
-  name: string;
-  placeholder: string;
-}
-
 export interface SocialLinkInterface {
   url: string;
   imgURL: string;

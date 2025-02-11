@@ -12,7 +12,7 @@ export default function Projects() {
                 <Card
                   key={index}
                   imgURL={item.imgURL}
-                  imgSize={100}
+                  imgSize={30}
                   url={item.url}
                   label={item.label}
                   description={item.description}
