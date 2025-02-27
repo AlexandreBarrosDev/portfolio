@@ -18,10 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" >
-      <body className={`${openSans.className} antialiased bg-neutral-950 text-neutral-100`}>
+      <body className={`${openSans.className} antialiased bg-neutral-50 text-neutral-900`}>
         <header
           className={`${play.className} fixed flex lg:flex-col lg:justify-between items-center top-0 left-0
-          w-full h-14 lg:w-48 lg:h-full p-5 bg-neutral-100`}
+          w-full h-14 lg:w-48 lg:h-full p-5 bg-neutral-900`}
         >
           <nav className='flex lg:flex-col lg:justify-between items-center gap-2 lg:gap-8 w-full'>
             <Link href="/">
@@ -31,7 +31,7 @@ export default function RootLayout({
             <Navbar />
             <h1
               className={`${play.className} antialiased
-              text-neutral-950 lg:mt-60 lg:block lg:-rotate-90 lg:text-5xl
+              text-neutral-50 lg:mt-60 lg:block lg:-rotate-90 lg:text-5xl
               lg:text-nowrap`}
             >
               ALEXANDRE BARROS
@@ -41,7 +41,7 @@ export default function RootLayout({
         <main className="flex flex-col w-full h-full">
           {children}
         </main>
-        <footer className="flex justify-center items-center fixed bottom-0 w-full lg:ml-28 p-2 text-xs text-neutral-100 backdrop-blur-md lg:backdrop-blur-0">
+        <footer className="flex justify-center items-center fixed bottom-0 w-full lg:ml-28 p-2 text-xs text-neutral-900 backdrop-blur-md lg:backdrop-blur-0">
           &copy; {`${new Date().getFullYear()} `}Alexandre Barros
         </footer>
       </body>

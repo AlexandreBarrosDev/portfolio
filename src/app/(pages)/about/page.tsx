@@ -16,9 +16,9 @@ export default function About() {
         </div>
         <div className="flex flex-col gap-4 text-justify p-4">
           <p>
-            Desenvolvedor Fullstack apaixonado por criar soluções digitais inovadoras e eficientes.
-            Com experiência em desenvolvimento web, possuo conhecimentos nas principais tecnologias e frameworks,
-            permitindo-me construir aplicações robustas e escaláveis do início ao fim.
+            Analista de Sistemas focado em Quality Assurance. Minha paixão é testar software e garantir que ele atenda
+            aos requisitos e expectativas dos usuários. Com conhecimento em testes manuais e automatizados, busco sempre
+            aprimorar minhas habilidades para entregar produtos de alta qualidade.
           </p>
           <p>
             Sou um entusiasta por novas tecnologias e busco constantemente aprimorar minhas habilidades para entregar
