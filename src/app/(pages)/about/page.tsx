@@ -8,7 +8,8 @@ export default function About() {
       <div className="flex flex-col justify-center items-center gap-12 p-4">
         <div className="p-2">
           <Image
-            className="rounded-full border-4 bg-gradient-to-r from-emerald-500 to-cyan-500 bg-clip-border border-transparent "
+            className="rounded-full border-4 bg-gradient-to-r from-emerald-500
+            to-cyan-500 bg-clip-border border-transparent "
             src="/fotoalxperfil.png"
             width={250}
             height={250}
@@ -16,9 +17,9 @@ export default function About() {
         </div>
         <div className="flex flex-col gap-4 text-justify p-4">
           <p>
-            Analista de Sistemas focado em Quality Assurance. Minha paixão é testar software e garantir que ele atenda
-            aos requisitos e expectativas dos usuários. Com conhecimento em testes manuais e automatizados, busco sempre
-            aprimorar minhas habilidades para entregar produtos de alta qualidade.
+            Analista de Sistemas focado em Desenvolvimento Web. Apaixonado por aprender
+            novas habilidades e resolver problemas complexos através de soluções tecnológicas.
+            Busco sempre aprimorar minhas habilidades para entregar produtos de alta qualidade.
           </p>
           <p>
             Sou um entusiasta por novas tecnologias e busco constantemente aprimorar minhas habilidades para entregar
@@ -28,7 +29,8 @@ export default function About() {
             Nos momentos de lazer, sou um ávido jogador de games clássicos e explorador de novos lugares.
             Essa paixão por novas experiências me inspira a trazer criatividade e originalidade para meus projetos.
           </p>
-          <p className="text-xs text-end mt-4"><cite>"Menos é mais. Ser simples requer tempo e esforço"</cite> - Jeff Bullas</p>
+          <p className="text-xs text-end mt-4"><cite>"Menos é mais. Ser simples requer tempo e esforço"</cite>
+          - Jeff Bullas</p>
         </div>
       </div>
     </section>
