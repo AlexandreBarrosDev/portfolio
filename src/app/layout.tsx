@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { openSans, play } from '@/fonts';
+import { raleway, roboto } from '@/fonts';
 import Link from 'next/link';
 import Image from 'next/image';
 import './globals.css';
@@ -18,9 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" >
-      <body className={`${openSans.className} antialiased bg-neutral-50 text-neutral-900`}>
+      <body className={`${roboto.className} antialiased bg-neutral-50 text-neutral-900`}>
         <header
-          className={`${play.className} fixed flex lg:flex-col lg:justify-between items-center top-0 left-0
+          className={`${raleway.className} fixed flex lg:flex-col lg:justify-between items-center top-0 left-0
           w-full h-14 lg:w-48 lg:h-full p-5 bg-neutral-900`}
         >
           <nav className='flex lg:flex-col lg:justify-between items-center gap-2 lg:gap-8 w-full'>
@@ -30,7 +30,7 @@ export default function RootLayout({
             <MobileNav />
             <Navbar />
             <h1
-              className={`${play.className} antialiased
+              className={`${raleway.className} antialiased
               text-neutral-50 lg:mt-60 lg:block lg:-rotate-90 lg:text-5xl
               lg:text-nowrap`}
             >

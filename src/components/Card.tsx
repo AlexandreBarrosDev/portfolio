@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Modal from '@/components/Modal';
 import { CardItemInterface } from '@/interfaces';
 import  Button  from '@/components/Button';
-import { play } from '@/fonts';
+import { raleway } from '@/fonts';
 
 export function Card(props: CardItemInterface) {
   const [showModal, setShowModal] = useState(false);
@@ -23,7 +23,7 @@ export function Card(props: CardItemInterface) {
               width={props.imgSize}
               height={props.imgSize}
             />
-            <h3 className={`${play.className} font-bold`}>{props.label}</h3>
+            <h3 className={`${raleway.className} font-bold`}>{props.label}</h3>
           </div>
           <Button
             type='button'

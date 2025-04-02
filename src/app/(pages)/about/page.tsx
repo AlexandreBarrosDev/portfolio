@@ -1,10 +1,10 @@
-import { play } from "@/fonts";
+import { raleway } from "@/fonts";
 import Image from "next/image";
 
 export default function About() {
   return (
     <section className="flex flex-col justify-center items-center lg:w-4/5 h-full my-16 lg:m-auto lg:pl-36">
-      <h2 className={`${play.className} text-2xl border-b-2 mb-12 lg:m-12`}>Sobre</h2>
+      <h2 className={`${raleway.className} text-2xl border-b-2 mb-12 lg:m-12`}>Sobre</h2>
       <div className="flex flex-col justify-center items-center gap-12 p-4">
         <div className="p-2">
           <Image

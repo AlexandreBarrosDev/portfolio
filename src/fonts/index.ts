@@ -1,13 +1,13 @@
-import { Play, Open_Sans } from 'next/font/google';
+import { Raleway, Roboto } from 'next/font/google';
 
-export const play = Play({
+export const raleway = Raleway({
   weight: ['400', '700'],
-  variable: '--font-play',
+  variable: '--font-releway',
   subsets: ['latin'],
 });
 
-export const openSans = Open_Sans({
+export const roboto = Roboto({
   weight: ['400', '700'],
-  variable: '--font-open-sans',
+  variable: '--font-roboto',
   subsets: ['latin'],
 });
