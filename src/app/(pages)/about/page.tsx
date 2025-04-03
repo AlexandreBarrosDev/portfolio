@@ -8,8 +8,7 @@ export default function About() {
       <div className="flex flex-col justify-center items-center gap-12 p-4">
         <div className="p-2">
           <Image
-            className="rounded-full border-4 bg-gradient-to-r from-emerald-500
-            to-cyan-500 bg-clip-border border-transparent "
+            className="rounded-full border-4 border-indigo-600 "
             src="/fotoalxperfil.png"
             width={250}
             height={250}

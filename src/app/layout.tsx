@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" >
-      <body className={`${roboto.className} antialiased bg-neutral-50 text-neutral-900`}>
+      <body className={`${roboto.className} antialiased bg-gradient-to-br from-neutral-50 to-neutral-100 text-neutral-900`}>
         <header
           className={`${raleway.className} fixed flex lg:flex-col lg:justify-between items-center top-0 left-0
           w-full h-14 lg:w-48 lg:h-full p-5 bg-neutral-900`}

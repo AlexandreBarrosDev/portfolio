@@ -9,8 +9,8 @@ export default function Home() {
         <h2 className={`${raleway.className} antialiased font-extralight text-start
         pt-2 border-t-2 lg:pl-2 lg:border-t-0 lg:border-l-2 border-neutral-900 border-solid`}>
           <span className="text-sm lg:text-2xl pl-1 lg:pl-2">Bem vindo ao meu</span><br />
-          <span className="text-6xl lg:text-9xl tracking-wide">PORTFOLIO</span><br />
-          <span className="text-2xl lg:text-5xl pl-1 lg:pl-2">Desenvolvedor Web</span>
+          <span className="text-6xl lg:text-9xl tracking-wide font-bold">PORTFOLIO</span><br />
+          <span className="text-2xl lg:text-2xl pl-1 lg:pl-2">Desenvolvedor Web & Mobile</span>
         </h2>
       </div>
     </section>

@@ -9,33 +9,10 @@
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs1274">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient868">
-      <stop
-         style="stop-color:#10b981;stop-opacity:1;"
-         offset="0"
-         id="stop864" />
-      <stop
-         style="stop-color:#06b6d4;stop-opacity:1;"
-         offset="1"
-         id="stop866" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient868"
-       id="linearGradient870"
-       x1="7.257328"
-       y1="12.353553"
-       x2="17.449565"
-       y2="12.353553"
-       gradientUnits="userSpaceOnUse" />
-  </defs>
+     id="defs1274" />
   <sodipodi:namedview
      id="namedview1272"
      pagecolor="#505050"
@@ -47,8 +24,8 @@
      inkscape:deskcolor="#505050"
      showgrid="false"
      inkscape:zoom="32.708333"
-     inkscape:cx="8.8968154"
-     inkscape:cy="12.107006"
+     inkscape:cx="8.9273886"
+     inkscape:cy="12.13758"
      inkscape:window-width="1920"
      inkscape:window-height="948"
      inkscape:window-x="0"
@@ -58,5 +35,5 @@
   <path
      d="m 15.449867,16.742565 1.999698,0 V 7.2574348 l -9.4851302,0 0,1.999698 6.0712192,0 -6.778326,6.7783252 1.4142136,1.414214 6.7783254,-6.778326 z"
      id="path1268"
-     style="fill:url(#linearGradient870);fill-opacity:1" />
+     style="fill:#3e49c1;fill-opacity:1" />
 </svg>
