@@ -8,8 +8,8 @@ export default function About() {
       <div className="flex flex-col justify-center items-center gap-12 p-4">
         <div className="p-2">
           <Image
-            className="rounded-full border-4 border-zinc-800 "
-            src="/fotoalxperfil.png"
+            className="rounded-full border-4 border-zinc-600 "
+            src="/alexandrebarrosfotoperfil.png"
             width={250}
             height={250}
             alt="Foto de Alexandre Barros" />
