@@ -10,16 +10,16 @@ export default function MobileNav() {
     <div className="flex lg:hidden">
       <button onClick={toggle} className="flex flex-col w-8 h-6 justify-center items-center fixed top-0 right-0 m-4">
         <span
-          className={`w-full h-0.5 rounded-sm bg-neutral-100 left-0 top-0 absolute
+          className={`w-full h-0.5 rounded-sm bg-zinc-800 left-0 top-0 absolute
           transition-all duration-300 ease-out
           ${isOpen ? 'top-3 rotate-45' : 'rotate-0'}`}
         >
         </span>
-        <span className={`w-full h-0.5 rounded-sm bg-neutral-100
+        <span className={`w-full h-0.5 rounded-sm bg-zinc-800
         transition-all duration-300 ease-out
         ${isOpen ? 'opacity-0' : 'w-full'}`}>
         </span>
-        <span className={`w-full h-0.5 rounded-sm bg-neutral-100 bottom-0 absolute
+        <span className={`w-full h-0.5 rounded-sm bg-zinc-800 bottom-0 absolute
           transition-all duration-300 ease-out
           ${isOpen ? 'bottom-2.5 -rotate-45' : 'rotate-0'}`}>
         </span>
@@ -27,7 +27,7 @@ export default function MobileNav() {
       <ul
         onClick={toggle}
         className={`transition-all ease-in-out duration-300
-        ${isOpen ? 'translate-x-0' : 'translate-x-28 invisible'} z-50 bg-zinc-800
+        ${isOpen ? 'translate-x-0' : 'translate-x-28 invisible'} z-50 bg-zinc-200
         p-4 fixed h-screen top-2 right-0 mt-12`}
       >
         {

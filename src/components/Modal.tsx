@@ -6,14 +6,14 @@ export default function Modal(props: ModalItemInterface) {
   if(!props.isOpen) return null;
   return (
     <div onClick={props.onClose} className={`w-screen h-screen fixed top-0 left-0 flex justify-center
-     items-center bg-zinc-800 bg-opacity-60`}>
+     items-center bg-zinc-200 bg-opacity-60`}>
       <div id={props.items.url} onClick={(e) => e.stopPropagation()} className="w-screen flex flex-col
-      justify-around items-center bg-zinc-200 " >
+      justify-around items-center bg-zinc-800 " >
         <div className="flex flex-col justify-center items-center p-4">
           <Image src={props.items.imgURL} alt={props.items.label} width={props.items.imgSize} height={props.items.imgSize}/>
-          <h3 className="text-zinc-800 font-bold">{props.items.label}</h3>
+          <h3 className="text-zinc-200 font-bold">{props.items.label}</h3>
         </div>
-        <ul className="flex flex-col w-full justify-center items-start p-4 bg-zinc-200 text-zinc-800">
+        <ul className="flex flex-col w-full justify-center items-start p-4 bg-zinc-800 text-zinc-200">
           {
             props.items.description.map((description, index) => (
               <li
