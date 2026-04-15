@@ -9,9 +9,9 @@ export default function About() {
         <div className="p-2">
           <Image
             className="rounded-full border-4 border-red-600 "
-            src="/alexandrebarrosfotoperfil.png"
-            width={250}
-            height={250}
+            src="/fotoperfilalexandre1_1.png"
+            width={300}
+            height={300}
             alt="Foto de Alexandre Barros" />
         </div>
         <div className="flex flex-col gap-4 text-justify p-4">
